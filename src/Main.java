@@ -43,8 +43,9 @@ public class Main {
     public static void round (){
         evilHit();
         heroesHits();
-        MedicPower();
         printStatistic();
+        MedicPower();
+
     }
     public static void bossTypeBarrier() {
         Random random = new Random();
